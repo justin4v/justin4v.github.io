@@ -1,11 +1,5 @@
 # About this Cool Concise Jekyll Blog Theme
 
-[![GitHub stars](https://img.shields.io/github/stars/Gaohaoyang/gaohaoyang.github.io.svg)](https://github.com/Gaohaoyang/gaohaoyang.github.io/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/Gaohaoyang/gaohaoyang.github.io.svg)](https://github.com/Gaohaoyang/gaohaoyang.github.io/network)
-[![GitHub issues](https://img.shields.io/github/issues/Gaohaoyang/gaohaoyang.github.io.svg)](https://github.com/Gaohaoyang/gaohaoyang.github.io/issues)
-[![GitHub release](https://img.shields.io/github/release/Gaohaoyang/gaohaoyang.github.io.svg)](https://github.com/Gaohaoyang/gaohaoyang.github.io/releases)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Gaohaoyang/gaohaoyang.github.io/master/LICENSE)
-
 
 
 ## Content
@@ -297,13 +291,7 @@ Visit localhost:4000 to see your blog!!!
 
 If there is nothing wrong, push code to your github!
 
-## Donate
 
-You can also donate me for a coffee, and I'll do better. Thanks.
-
-|                                                                     PayPal                                                                     |                                 Wechat Pay                                  |                                   Alipay                                    |
-|:----------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------:|:---------------------------------------------------------------------------:|
-| [![PayPal](https://www.paypalobjects.com/webstatic/paypalme/images/pp_logo_small.png)<br>Donate via PayPal ](https://www.paypal.me/gaohaoyang) | ![wechat](http://ww2.sinaimg.cn/large/7011d6cfjw1f3bkdw3bslj206z06q3z6.jpg) | ![alipay](http://ww2.sinaimg.cn/large/7011d6cfjw1f3bk8ikzoij20740743z5.jpg) |
 
 ## Update Log
 
@@ -344,8 +332,6 @@ You can also donate me for a coffee, and I'll do better. Thanks.
 * `[^]` Use github flavored markdown to write code block(Fenced code blocks)
 * `[^]` Rewrite the demo page with Masonry
 * `[-]` Remove jQuery and BootStrap
-
-About my old blog theme, I won't maintain any more. And I put the code at  [Gaohaoyang/old-blog](https://github.com/Gaohaoyang/old-blog).
 
 ## License
 
