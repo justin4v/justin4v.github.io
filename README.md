@@ -40,10 +40,13 @@
 First of all, let's see previews.
 
 Index Page
-![index](image\readme\index.jpg)
+
+<img src="_posts/image/readme/index.jpg">
+
+
 
 Post Page
-![post](image\readme\post.jpg)
+<img src="_posts/image/readme/post.jpg">
 
 ## Page Details
 
@@ -100,7 +103,7 @@ More info to see [syntax-highlighter-changed](https://jekyllrb.com/docs/upgradin
 
 ### Light Shadow
 
-![light](image\readme\light.jpg)
+<img src="_posts/image/readme/light.jpg">
 
 You can see the white shadow on the current item in the navbar. I call this light shadow.
 
@@ -108,13 +111,17 @@ You can see the white shadow on the current item in the navbar. I call this ligh
 
 Of course, I have done a very good mobile adaptation.
 
-![mobile](image\readme\mobile adaptation.jpg)
+<img src="_posts/image/readme/mobile adaptation.jpg">
+
+
 
 ### Footer
 
 **Welcome to use this blog theme, but please keep the theme author info at footer.** Theme designed by [HyG](https://github.com/gaohaoyang).
 
-![footer](image\readme\footer.jpg)
+<img src="_posts/image/readme/footer.jpg">
+
+
 
 ### Statistical Analysis
 
@@ -151,7 +158,9 @@ There may be something wrong at mac OS X El Capitan, you can see the solution at
 
 If you are interesting in jekyll, you can see the jekyll source code at [https://github.com/jekyll/jekyll](https://github.com/jekyll/jekyll).
 
-![jekyll logo](image\readme\jekyll logo.png)
+<img src="_posts/image/readme/jekyll logo.png">
+
+
 
 ### 2. Copy theme code
 
