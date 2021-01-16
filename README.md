@@ -40,10 +40,10 @@
 First of all, let's see previews.
 
 Index Page
-![index](http://ww3.sinaimg.cn/large/7011d6cfjw1f3bdli86awj211k0oyqen.jpg)
+![index](image\readme\index.jpg)
 
 Post Page
-![post](http://ww4.sinaimg.cn/large/7011d6cfjw1f3bdmzb9v6j210p0j7gwn.jpg)
+![post](image\readme\post.jpg)
 
 ## Page Details
 
@@ -100,7 +100,7 @@ More info to see [syntax-highlighter-changed](https://jekyllrb.com/docs/upgradin
 
 ### Light Shadow
 
-![light](http://ww3.sinaimg.cn/large/7011d6cfjw1f3be6y4vp3j209i02rweg.jpg)
+![light](image\readme\light.jpg)
 
 You can see the white shadow on the current item in the navbar. I call this light shadow.
 
@@ -108,13 +108,13 @@ You can see the white shadow on the current item in the navbar. I call this ligh
 
 Of course, I have done a very good mobile adaptation.
 
-![mobile](http://ww4.sinaimg.cn/large/7011d6cfjw1f3bebnzxkpj20ah0fzgp4.jpg)
+![mobile](image\readme\mobile adaptation.jpg)
 
 ### Footer
 
 **Welcome to use this blog theme, but please keep the theme author info at footer.** Theme designed by [HyG](https://github.com/gaohaoyang).
 
-![footer](http://ww3.sinaimg.cn/large/7011d6cfjw1f3bepd8002j20hl02ct95.jpg)
+![footer](image\readme\footer.jpg)
 
 ### Statistical Analysis
 
@@ -151,7 +151,7 @@ There may be something wrong at mac OS X El Capitan, you can see the solution at
 
 If you are interesting in jekyll, you can see the jekyll source code at [https://github.com/jekyll/jekyll](https://github.com/jekyll/jekyll).
 
-![jekyll logo](http://jekyllcn.com/img/logo-2x.png)
+![jekyll logo](image\readme\jekyll logo.png)
 
 ### 2. Copy theme code
 
