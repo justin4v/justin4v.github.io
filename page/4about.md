@@ -11,7 +11,7 @@ type: page
 
 ## 关于我
 
-<iframe src="https://github.com/justin4v" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
+<iframe src="" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
 
 ## 联系我
 
