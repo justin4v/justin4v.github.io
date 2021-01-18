@@ -66,7 +66,7 @@ GEM
     tzinfo-data (1.2019.2)
       tzinfo (>= 1.0.0)
     wdm (0.1.1)
-	jekyll-paginate (1.0.0)
+    jekyll-paginate (1.0.0)
 	
 
 PLATFORMS
