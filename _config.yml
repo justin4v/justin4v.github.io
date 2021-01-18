@@ -56,9 +56,10 @@ tag_dir: tag/
 excerpt_separator: "\n\n\n\n"
 
 # paginate
-gems: [jekyll-paginate]
-paginate: 10
+# gems: [jekyll-paginate]
+# paginate: 10
 
 plugins:
-  - jekyll-paginate
   - jekyll-feed
+  - jekyll-paginate
+  
