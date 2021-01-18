@@ -45,7 +45,6 @@
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 {% endif %}
 
-{% if site.gitment.id %}
 <div id="container"></div>
 <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
 <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
@@ -56,4 +55,3 @@ repo: 'justin4v.github.io', //比如我的叫anTtutu.github.io
 oauth: { client_id: '{{ site.gitment.id }}', //比如我的828*********** 
 client_secret: '{{ site.gitment.secret }}', //比如我的49e************************ }, 
 }) gitment.render('container') </script>
-{% endif %}
