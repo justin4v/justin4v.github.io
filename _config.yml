@@ -33,7 +33,7 @@ disqus_shortname: #justin4v
 
 # Gitment
 gitment_enable: true
-comment_gitment_repo:justin4v.github.io
+comment_gitment_repo: justin4v.github.io
 comment_gitment_clientId: 665dd13b1fa7c94d8fde
 comment_gitment_clientSecret: 432a5b8dd59822163b9c77e43446d05e411e3dad
 
