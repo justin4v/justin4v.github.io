@@ -46,22 +46,21 @@
 {% endif %}
 
 {% if site.gitment_enable %}
-<div id="container"></div>
+<div id="gitmentContainer"></div>
 <!-- <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css"> -->
 <!-- <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script> -->
 <!-- 汉化 -->
 <link rel="stylesheet" href="https://billts.site/extra_css/gitment.css">
 <script src="https://billts.site/js/gitment.js"></script>
-<script> 
-var gitment = new Gitment({ 
-	id: '<%= page.date %>',
-	owner: '{{site.gitment_github_username}}',
-	repo: '{{site.gitment_github_repo}}',
-	oauth: { 
-	client_id: '{{site.gitment_client_id}}',
-	client_secret: '{{site.gitment_client_secret}}',
-		},
-	});
-gitment.render('container')
+<script>
+    var gitment = new Gitment({
+        owner: '{{site.github_username}}',
+        repo: '{{site.comment_gitment_repo}}',
+        oauth: {
+            client_id: '{{site.comment_gitment_clientId}}',
+            client_secret: '{{site.comment_gitment_clientSecret}}',
+        },
+    });
+    gitment.render('gitmentContainer')
 </script>
 {% endif %}
