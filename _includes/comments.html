@@ -45,13 +45,20 @@
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 {% endif %}
 
+{% if site.gitment.enable %}
 <div id="container"></div>
 <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
 <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-<script> var gitment = new Gitment({ 
-id: 'id',
-owner: 'justin4v',
-repo: 'justin4v.github.io',
-oauth: { client_id: '665dd13b1fa7c94d8fde',
-client_secret: '432a5b8dd59822163b9c77e43446d05e411e3dad',
-}, }) gitment.render('container') </script>
+<script> 
+var gitment = new Gitment({ 
+	id: '<%= page.date %>',
+	owner: '{{site.gitment.github_username}}',
+	repo: '{{site.gitment.github_repo}}',
+	oauth: { 
+	client_id: '{{site.gitment.client_id}}',
+	client_secret: '{{site.gitment.client_secret}}',
+		},
+	});
+gitment.render('container')
+</script>
+{% endif %}

@@ -33,8 +33,12 @@ disqus_shortname: #justin4v
 
 # Gitment
 gitment:
-    id: 665dd13b1fa7c94d8fde
-    secret: 432a5b8dd59822163b9c77e43446d05e411e3dad
+  enable: true
+  github_username: justin4v
+  github_repo: justin4v.github.io
+  id: 665dd13b1fa7c94d8fde
+  secret: 432a5b8dd59822163b9c77e43446d05e411e3dad
+  lazy: false
 
 # statistic analysis 统计代码
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
