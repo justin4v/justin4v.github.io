@@ -45,7 +45,7 @@
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 {% endif %}
 
-{% if site.gitment.enable %}
+{% if site.gitment_enable %}
 <div id="container"></div>
 <!-- <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css"> -->
 <!-- <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script> -->
@@ -55,11 +55,11 @@
 <script> 
 var gitment = new Gitment({ 
 	id: '<%= page.date %>',
-	owner: '{{site.gitment.github_username}}',
-	repo: '{{site.gitment.github_repo}}',
+	owner: '{{site.gitment_github_username}}',
+	repo: '{{site.gitment_github_repo}}',
 	oauth: { 
-	client_id: '{{site.gitment.client_id}}',
-	client_secret: '{{site.gitment.client_secret}}',
+	client_id: '{{site.gitment_client_id}}',
+	client_secret: '{{site.gitment_client_secret}}',
 		},
 	});
 gitment.render('container')
