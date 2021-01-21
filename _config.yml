@@ -33,10 +33,20 @@ disqus_shortname: #justin4v
 
 # Gitalk
 gitalk:
-  enable: true
+  enable: false
   repo: justin4v.github.io
   clientId: 665dd13b1fa7c94d8fde
   clientSecret: 432a5b8dd59822163b9c77e43446d05e411e3dad
+
+# valine 
+valine:
+  enable: true
+  # app_id
+  leancloudAppId: xrKr4XbDwcOlCx7ekrxyLpQG-MdYXbMMI
+  # app_key
+  leancloudAppKey: bRFkknwgemUUOzTgDSCMIcxV
+  # placeholde
+  placeholder: "分享你的看法"
 
 # statistic analysis 统计代码
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
