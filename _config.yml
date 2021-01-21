@@ -46,7 +46,7 @@ valine:
   # app_key
   leancloudAppKey: bRFkknwgemUUOzTgDSCMIcxV
   # placeholde
-  placeholder: “Just go go"
+  placeholder: "分享你的看法"
 
 # statistic analysis 统计代码
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
