@@ -81,7 +81,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Jekyll, NexT"
+keywords: "Justin, Blog"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -444,6 +444,16 @@ gitalk:
   repo: # colingpt.github.io
   owner: # colingpt
   admin: # colingpt
+
+# Support for valine comments system.
+valine:
+  enable: true
+  # app_id
+  leancloudAppId: xrKr4XbDwcOlCx7ekrxyLpQG-MdYXbMMI
+  # app_key
+  leancloudAppKey: bRFkknwgemUUOzTgDSCMIcxV
+  # placeholde
+  placeholder: "分享你的看法"
 
 # Baidu Share
 # Available value:
