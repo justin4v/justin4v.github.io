@@ -12,6 +12,8 @@ author: John Doe
 language: en
 date_format: '%Y-%m-%d'
 
+repository: justin4v/justin4v.github.io
+
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
 url:
