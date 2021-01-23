@@ -447,12 +447,13 @@ gitalk:
   admin: # colingpt
 
 # Support for valine comments system.
+# id 和 key 与下方 leancloud_visitors 配置一致
 valine:
   enable: true
   # app_id
-  leancloudAppId: xrKr4XbDwcOlCx7ekrxyLpQG-MdYXbMMI
+  # leancloudAppId: 6ClXtFjb1gc9KbUJQOeMJX3U-gzGzoHsz
   # app_key
-  leancloudAppKey: bRFkknwgemUUOzTgDSCMIcxV
+  # leancloudAppKey: ixnJny4ihJ26HPxJ8IpGpwH5
   # placeholde
   placeholder: "分享你的看法"
 
@@ -460,8 +461,8 @@ valine:
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
   enable: true
-  app_id: xrKr4XbDwcOlCx7ekrxyLpQG-MdYXbMMI
-  app_key: bRFkknwgemUUOzTgDSCMIcxV
+  app_id: 6ClXtFjb1gc9KbUJQOeMJX3U-gzGzoHsz
+  app_key: ixnJny4ihJ26HPxJ8IpGpwH5
   
   
 # Baidu Share

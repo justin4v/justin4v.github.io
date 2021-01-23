@@ -11,8 +11,8 @@
 	<script>
 		new Valine({
 			el: '#vcomments',
-			app_id: '{{site.valine.leancloudAppId}}',   //这里变量的取值在网站配置文件里_config.yml
-			app_key: '{{ site.valine.leancloudAppKey}}',
+			app_id: '{{site.leancloud_visitors.app_id}}',   //这里变量的取值在网站配置文件里_config.yml
+			app_key: '{{ site.leancloud_visitors.app_key}}',
 			placeholder:'{{site.valine.placeholder}}'  
 		});
 	</script>
