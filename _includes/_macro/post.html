@@ -430,8 +430,10 @@
     </footer>
 	
 	<div>
-		{% if not is_index %}
-		  {% include _third-party/comments/index.html %} 
+		{% if is_index %}
+		 
+		{% else %}
+			{% include _third-party/comments/index.html %} 
 		{% endif %}
 	</div>
   </article>
