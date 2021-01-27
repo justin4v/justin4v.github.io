@@ -429,14 +429,9 @@
       {% endif %}
     </footer>
 
-  <div>
-    <!-- 留白 -->
-  </div>
   <!-- 增加 Valine 评论插件 -->
-	<div>
-		{% if is_index %}
-		{% else %}
+  {% unless is_index %}
+	<div class="comments">
 			{% include _third-party/comments/index.html %} 
-		{% endif %}
 	</div>
   </article>
