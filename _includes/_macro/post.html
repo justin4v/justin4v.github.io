@@ -430,8 +430,10 @@
     </footer>
 
   <!-- 增加 Valine 评论插件 -->
-  {% unless is_index %}
 	<div class="comments">
+		{% if is_index %}
+		{% else %}
 			{% include _third-party/comments/index.html %} 
+		{% endif %}
 	</div>
   </article>
