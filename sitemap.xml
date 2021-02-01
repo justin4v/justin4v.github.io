@@ -1,72 +1,19 @@
+---
+---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://www.justin4v.top/</loc>
-  <lastmod>2021-01-29T06:20:42+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.justin4v.top/categories/</loc>
-  <lastmod>2021-01-29T06:20:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.justin4v.top/about/</loc>
-  <lastmod>2021-01-29T06:20:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.justin4v.top/archives/</loc>
-  <lastmod>2021-01-29T06:20:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.justin4v.top/tags/</loc>
-  <lastmod>2021-01-29T06:20:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.justin4v.top/design/uml/2021/01/17/UML类图/</loc>
-  <lastmod>2021-01-29T06:20:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.justin4v.top/category/</loc>
-  <lastmod>2021-01-29T06:20:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.justin4v.top/design/analyse-model/2021/01/15/四色原型/</loc>
-  <lastmod>2021-01-29T06:20:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.justin4v.top/design/uml/2021/01/14/UML概述/</loc>
-  <lastmod>2021-01-29T06:20:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.justin4v.top/git/2020/12/15/Git简单理解与使用/</loc>
-  <lastmod>2021-01-29T06:20:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.justin4v.top/design/access-control/2020/11/20/权限设计模型/</loc>
-  <lastmod>2021-01-29T06:20:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.justin4v.top/tag/</loc>
-  <lastmod>2021-01-29T06:20:42+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-
+<?xml-stylesheet type='text/xsl' href="{{ "/assets/css/xsl-stylesheet.xsl" | prepend: site.baseurl }}"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    {% for nav in site.data.navs %}
+    {% if nav.external %}
+    {% else %}
+    <url>
+        <loc>{{ nav.url | prepend: site.baseurl | prepend: site.url }} </loc>
+    </url>
+    {% endif %}
+    {% endfor %}
+    {% for post in site.posts %}
+    <url>
+        <loc>{{ post.url | prepend: site.baseurl | prepend: site.url }}</loc>
+    </url>
+    {% endfor %}
 </urlset>
