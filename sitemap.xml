@@ -15,6 +15,7 @@
     <url>
         <loc>{{ post.url | prepend: site.baseurl | prepend: site.url }}</loc>
 		<priority>0.80</priority>
+		<changefreq>weekly</changefreq>
     </url>
     {% endfor %}
 </urlset>
