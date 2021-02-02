@@ -18,6 +18,8 @@ PersonDao personDao = sqlSession.getMapper(PersonDao.class);
 Person person = personDao.queryPersonById(1l);
 ```
 
+<!-- more -->
+
 ## 解释
 
 ### 第1步 MtConfiguration 
