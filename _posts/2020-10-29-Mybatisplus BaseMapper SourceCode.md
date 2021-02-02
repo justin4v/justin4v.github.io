@@ -16,7 +16,7 @@ author: justin4v
 如下有 deleted_by_id 的SQL语句：
 
 ```java
-DELETE_BY_ID("deleteById", "根据ID 删除一条数据", "<script>\nDELETE FROM %s WHERE %s=#{%s}\n</script>")
+DELETE_BY_ID("deleteById", "根据ID 删除一条数据", "<script>\nDELETE FROM %s WHERE %s=#{ %s }\n</script>")
 ```
 
 具体参数含义如下：
