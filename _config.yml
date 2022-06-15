@@ -6,10 +6,12 @@
 title: Justin's Blog
 subtitle: 'Stay hungry. Stay foolish'
 description: '[阅读, 记录, 前行]'
-keywords:
+keywords: Blog
 author: justin
 language: zh-CN
 timezone: 'Asia/Shanghai'
+email: junjf93@163.com
+
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -99,7 +101,34 @@ ignore:
 ## Themes: https://hexo.io/themes/
 
 # theme: landscape
-theme: hexo-theme-indigo
+theme: indigo
+
+
+# feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 0
+  
+# json content
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: true
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
