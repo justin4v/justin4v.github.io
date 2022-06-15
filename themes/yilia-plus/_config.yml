@@ -84,7 +84,7 @@ google_analytics: ''
 
 # root path： yalia-plus/source
 # 网站图标
-favicon: /img/favicon.png
+favicon: /favicon.ico
 
 # 你的头像url
 avatar: /img/head.jpeg
