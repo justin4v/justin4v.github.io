@@ -100,8 +100,8 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 
-theme: landscape
-# theme: indigo
+# theme: landscape
+theme: yilia-plus
 
 
 # feed
