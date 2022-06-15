@@ -104,5 +104,5 @@ theme: landscape
 deploy:
   type: 'git'
   repo:
-    github: https://justin4v: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@github.com/justin4v/justin4v.github.io   ## 这里即github仓库地址
+    github: git@github.com:justin4v/justin4v.github.io.git   ## 这里即github仓库地址
   branch: master ## 必须是master分支，否则看不到效果
