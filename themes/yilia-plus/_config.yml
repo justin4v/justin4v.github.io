@@ -61,6 +61,7 @@ open_in_new:
 reward_type: 2
 # 打赏wording
 reward_wording: '谢谢你请我吃糖果'
+# root path： ./source
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
 alipay: /img/alipay.jpg
 # 微信二维码图片地址
@@ -82,7 +83,7 @@ top: true
 baidu_analytics: ''
 google_analytics: ''
 
-# root path： yalia-plus/source
+# root path： ./source
 # 网站图标
 favicon: /favicon.ico
 
