@@ -1,4 +1,4 @@
-name: CI
+name: Hexo CI
 on:
   push:
     branches:
@@ -8,10 +8,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout source
+      - name: Checkout source  ## 检出博客源代码
         uses: actions/checkout@v1
         with:
-          ref: mian
+          ref: main  ## 源码分支
       - name: Use Node.js ${{ matrix.node_version }}
         uses: actions/setup-node@v1
         with:
