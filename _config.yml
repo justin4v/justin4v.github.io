@@ -114,7 +114,8 @@ ignore:
 ## Themes: https://hexo.io/themes/
 
 # theme: landscape
-theme: yilia-plus
+# theme: yilia-plus
+theme: butterfly
 
 jsonContent:
     meta: false
